@@ -8,7 +8,7 @@ const meta = {
     title: "Spojt — The new Atomic UI Registry",
     description:
       "A high-contrast, minimalist foundation for building and distributing design systems. Engineered for technical speed and architectural clarity.",
-    image: "/images/og/home.jpg",
+    image: "/images/og/og.png",
     canonical: "https://spojt.vercel.app",
     robots: "index,follow",
     alternates: [{ href: "https://spojt.vercel.app", hrefLang: "en" }],
