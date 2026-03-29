@@ -80,7 +80,7 @@ export const spojtConfig = {
 
 **`2.`** [Phosphor Icons](https://phosphoricons.com/) - Icon library
 
-**`3.`** [Once UI](https://once-ui.com/) - Design system foundation
+**`3.`** [Once UI](https://once-ui.com/) - Design system foundation created by [this guy 🤯](https://github.com/lorant-one)
 
 **`4.`** [JSrepo](https://www.jsrepo.dev/) - JavaScript configuration library
 
