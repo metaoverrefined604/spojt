@@ -1,140 +1,96 @@
-# Spojt
+<img width="1365" height="768" alt="ogspotj" src="https://github.com/user-attachments/assets/2fbc6226-abb1-42b7-bf82-bd0868e39581" />
 
-> The new Atomic UI Registry
 
-A high-contrast, minimalist foundation for building and distributing design systems. Engineered for technical speed and architectural clarity.
+
+
+|Light | Dark |
+|--|--|
+|<img width="946" height="430" alt="Screenshot 2026-03-30 013612" src="https://github.com/user-attachments/assets/ea2f2228-4589-433a-8447-e8da0f26c81a" />|<img width="946" height="430" alt="Screenshot 2026-03-30 013626" src="https://github.com/user-attachments/assets/b3e9136c-2a49-45a8-bea7-4d00aa02e6ea" />|
+
+
+
+<br>
+
+A **`🥀 high-contrast`**, **`💎 minimalist`** foundation for **`🏗️ building`** and distributing **`🌵 design systems`**. Engineered for technical **`🚄 speed` and **`✨ architectural clarity`**. Built with a **`🔮 clean, **`🧑‍💻 modern tech stack`** featuring the latest **`📚 libraries`** and **`🪟 frameworks`** for effortless, professional **`⌨️ development`**.
+
+<br><br>
 
 ## ✨ Features
 
-- **🎨 Atomic UI Components** - Modular, reusable design system components
-- **🌙 Theme System** - Light/dark/system theme switching with smooth transitions
-- **📱 Responsive Design** - Mobile-first approach with breakpoint-specific optimizations
-- **⚡ Performance Optimized** - Lazy loading, code splitting, and efficient animations
-- **🎛️ Configurable** - Feature toggles and customization via central configuration
-- **🔧 TypeScript** - Full type safety and excellent developer experience
-- **🎯 Minimalist** - Clean, high-contrast design that doesn't beg for attention
+**`1.`** **⚛️ Atomic UI Components** - Modular components
 
-## 🚀 Quick Start
+**`2.`** **🎨 Theme System** - Light/dark/system theme switching
 
-### Prerequisites
+**`3.`** **📱 Responsive Design** - Mobile-first approach
 
-- Node.js 18+
-- Bun or npm/yarn
+**`4.`** **⚡ Performance Optimized** - Lazy loading and code splitting
 
-### Installation
+**`5.`** **⚙️ Configurable** - Feature toggles and customization
+
+**`6.`** **TypeScript** - Full (some) type safety
+
+**`7.`** **Minimalist** - Clean design
+
+<br>
+
+## 🪨 Quick Start
+
+### ℹ️ Prerequisites
+
+**`1.`** Node.js 18+
+
+**`2.`** Bun or npm/yarn
+
+### 📩 Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/basalt3/spojt.git
 cd spojt
 
-# Install dependencies
 bun install
-
-# Start development server
 bun run dev
 ```
 
-### Configuration
+### ⚙️ Configuration
 
-The application behavior can be controlled through `src/resources/spojt.config.js`:
+The application **`🪼 behavior`** can be controlled through `src/resources/spojt.config.js`:
 
 ```javascript
+// boolean values for visibility
+
 export const spojtConfig = {
   components: {
-    navbar: true, // Show/hide navigation bar
-    hero: true, // Show/hide hero section
-    libraries: true, // Show/hide libraries showcase
-    footer: true, // Show/hide footer
+    navbar: true,
+    hero: true,
+    libraries: true,
+    footer: true,
   },
   utilities: {
-    themeSwitcher: true, // Show/hide theme switcher
-    matrixFx: true, // Show/hide matrix effect
-    autoScroll: false, // Control scroll speed (fast/slow)
-    highlighter: true, // Show/hide text highlighter
+    themeSwitcher: true,
+    matrixFx: true,
+    autoScroll: false,
+    highlighter: true,
   },
 };
 ```
 
-## 🎨 Design System
+## 🌃 Featuring
 
-### Typography
+**`1.`** [Shadcn UI](https://ui.shadcn.com/) - Components and utilities
 
-The application uses Google Fonts with variable font weights:
+**`2.`** [Phosphor Icons](https://phosphoricons.com/) - Icon library
 
-- **Bitcount** - Primary display font
-- **Questrial** - Headings and titles
-- **Geist** - Body text and labels
-- **Geist Mono** - Code and monospace text
+**`3.`** [Once UI](https://once-ui.com/) - Design system foundation
 
-### Color Palette
+**`4.`** [JSrepo](https://www.jsrepo.dev/) - JavaScript configuration library
 
-Built on the Once UI design system with:
+**`5.`** [Tailwind CSS](https://tailwindcss.com/) - Utility styling
 
-- **Brand**: Yellow (configurable)
-- **Accent**: Indigo (configurable)
-- **Neutral**: Gray scale system
-- **High contrast** ratios for accessibility
+<br>
 
-### Components
+> And now that's...... _**`s-p-o-j-t`**_ ✨
 
-All components are built with:
+## 🎯 License
 
-- **Once UI Core** - Component library
-- **Phosphor Icons** - Icon system
-- **Tailwind CSS** - Utility styling
-- **Shadcn UI** - Components and utilities
-- **jsrepo** - JavaScript config library
+**`🪪 MIT License`**- see [LICENSE](LICENSE) file for details.
 
-### Responsive Breakpoints
-
-Custom styles in `src/resources/custom.css`:
-
-```css
-/* Mobile-first responsive design */
-@media (max-width: 895px) {
-  /* Large tablets */
-}
-@media (max-width: 770px) {
-  /* Tablets */
-}
-@media (max-width: 650px) {
-  /* Large mobile */
-}
-@media (max-width: 420px) {
-  /* Small mobile */
-}
-@media (max-width: 370px) {
-  /* Very small mobile */
-}
-```
-
-## 🛠️ Development
-
-### Available Scripts
-
-```bash
-bun run dev      # Start development server
-bun run build    # Build for production
-bun run start    # Start production server
-bun run lint     # Run ESLint
-```
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Once UI](https://once-ui.com/) - Design system foundation
-- [Phosphor Icons](https://phosphoricons.com/) - Icon library
-- [Google Fonts](https://fonts.google.com/) - Typography
-- [Shadcn UI](https://ui.shadcn.com/) - Components and utilities
-- [Tailwind CSS](https://tailwindcss.com/) - Utility styling
-- [jsrepo](https://www.jsrepo.dev/) - JavaScript configuration library
-
----
-
-<p align="center">
-  <strong>Built with ✨ by <a href="https://basalt3.com">Basalt3</a></strong>
-</p>
