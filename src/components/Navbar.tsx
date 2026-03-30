@@ -110,9 +110,7 @@ export const Navbar: React.FC<NavbarProps> = ({ className }) => {
 
         <DropdownWrapper
           isOpen={isOpen}
-          radius="m"
           onOpenChange={setIsOpen}
-          background="transparent"
           trigger={
             <NavIcon
               id="navIcon"
