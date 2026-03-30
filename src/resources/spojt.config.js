@@ -13,5 +13,6 @@ export const spojtConfig = {
     autoScroll: true,
     highlighter: true,
     navLinks: true,
+    visitorCounter: true,
   },
 };

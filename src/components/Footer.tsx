@@ -7,6 +7,7 @@ import {
 } from "@phosphor-icons/react";
 import { socialLinks } from "@/resources/data/social";
 import { fonts } from "@/resources/once-ui.config";
+import { spojtConfig } from "@/resources/spojt.config";
 
 interface FooterProps extends React.ComponentProps<typeof Row> {}
 
@@ -55,33 +56,37 @@ export const Footer: React.FC<FooterProps> = ({ ...flex }) => {
             </IconButton>
           ))}
 
-          <Media
-            src="https://vbr.nathanchung.dev/badge?page_id=spojt&&lcolor=151515&color=151515&style=for-the-badge&text=non unique visitors"
-            unoptimized
-            style={{
-              scale: 0.8,
-              marginLeft: "-15px",
-              marginRight: "-20px",
-              pointerEvents: "none",
-              willChange: "unset",
-              userSelect: "none",
-              
-            }}
-            dark
-          />
-          <Media
-            src="https://vbr.nathanchung.dev/badge?page_id=spojt&&lcolor=EDEDED&color=EDEDED&style=for-the-badge&text=non unique visitors"
-            unoptimized
-            style={{
-              scale: 0.8,
-              marginLeft: "-15px",
-              marginRight: "-20px",
-              pointerEvents: "none",
-              willChange: "unset",
-              userSelect: "none",
-            }}
-            light
-          />
+          {spojtConfig.utilities.visitorCounter && (
+            <>
+              {" "}
+              <Media
+                src="https://vbr.nathanchung.dev/badge?page_id=spojt&&lcolor=151515&color=151515&style=for-the-badge&text=non unique visitors"
+                unoptimized
+                style={{
+                  scale: 0.8,
+                  marginLeft: "-15px",
+                  marginRight: "-20px",
+                  pointerEvents: "none",
+                  willChange: "unset",
+                  userSelect: "none",
+                }}
+                dark
+              />
+              <Media
+                src="https://vbr.nathanchung.dev/badge?page_id=spojt&&lcolor=EDEDED&color=EDEDED&style=for-the-badge&text=non unique visitors"
+                unoptimized
+                style={{
+                  scale: 0.8,
+                  marginLeft: "-15px",
+                  marginRight: "-20px",
+                  pointerEvents: "none",
+                  willChange: "unset",
+                  userSelect: "none",
+                }}
+                light
+              />
+            </>
+          )}
         </Row>
       </Row>
     </Row>
