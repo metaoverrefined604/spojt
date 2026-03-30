@@ -70,6 +70,9 @@ export default function RootLayout({
             'viz-style': dataStyle.variant,
           }}
         />
+        <link rel="preload" href="https://vbr.nathanchung.dev/badge?page_id=spojt&&lcolor=151515&color=151515&style=for-the-badge&text=non unique visitors" as="image" />
+        <link rel="preload" href="https://vbr.nathanchung.dev/badge?page_id=spojt&&lcolor=EDEDED&color=EDEDED&style=for-the-badge&text=non unique visitors" as="image" />
+
       </head>
       <Providers>
         <Column as="body" background="page" fillWidth margin="0" padding="0">
