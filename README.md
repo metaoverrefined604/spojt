@@ -7,13 +7,20 @@
 |--|--|
 |<img width="946" height="430" alt="Screenshot 2026-03-30 013612" src="https://github.com/user-attachments/assets/ea2f2228-4589-433a-8447-e8da0f26c81a" />|<img width="946" height="430" alt="Screenshot 2026-03-30 013626" src="https://github.com/user-attachments/assets/b3e9136c-2a49-45a8-bea7-4d00aa02e6ea" />|
 
-
+<div style="width: 100%; overflow: hidden;">
+  <div style="float: left;">
+    <img src="https://vbr.nathanchung.dev/badge?page_id=spojt&&lcolor=eaeaea&color=151515&style=for-the-badge&text=Visitors" width="145" height="50" style="float: right; display: inline-block; vertical-align: middle;">
+    <img src="https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=ui+&secondaryLabel=spojt&primaryBGColor=%23eaeaea&primaryTextColor=%23151515&secondaryBGColor=%23151515&secondaryTextColor=%23FFFFFF&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase" style="display: inline-block; vertical-align: middle;">
+    <img src="https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=part+of&secondaryLabel=basalt3&primaryBGColor=%23eaeaea&primaryTextColor=%23151515&secondaryBGColor=%23151515&secondaryTextColor=%23FFFFFF&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase" style="display: inline-block; vertical-align: middle; margin-left: 10px;">
+  </div>
+</div>
 
 <br>
 
+## ❓ About
 A **`high-contrast`**, **`minimalist`** foundation for **`building`** and distributing **`design systems`**. Engineered for technical **`speed`** and **`architectural clarity`**. Built with a **`clean`** modern tech stack featuring the latest **`libraries`** and **`frameworks`** for effortless, professional **`development`**.
 
-<br
+<br>
 
 ## ✨ Features
 
